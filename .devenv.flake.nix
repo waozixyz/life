@@ -3,12 +3,12 @@
     let
       version = "1.0.5";
 system = "x86_64-linux";
-devenv_root = "/home/wao/lyra/proj/mylife";
+devenv_root = "/home/wao/lyra/web/mylife.waozi.xyz";
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
 devenv_tmpdir = "/run/user/1000";
-devenv_runtime = "/run/user/1000/devenv-c575eb3";
+devenv_runtime = "/run/user/1000/devenv-7af2ea4";
 
         in {
         pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
@@ -23,12 +23,12 @@ devenv_runtime = "/run/user/1000/devenv-c575eb3";
         let
           version = "1.0.5";
 system = "x86_64-linux";
-devenv_root = "/home/wao/lyra/proj/mylife";
+devenv_root = "/home/wao/lyra/web/mylife.waozi.xyz";
 devenv_dotfile = ./.devenv;
 devenv_dotfile_string = ".devenv";
 container_name = null;
 devenv_tmpdir = "/run/user/1000";
-devenv_runtime = "/run/user/1000/devenv-c575eb3";
+devenv_runtime = "/run/user/1000/devenv-7af2ea4";
 
             devenv =
             if builtins.pathExists (devenv_dotfile + "/devenv.json")
